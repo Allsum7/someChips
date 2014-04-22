@@ -1,0 +1,47 @@
+#popup_container {
+	font-family: 微软雅黑,Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #f9f9f9;
+	border: solid 5px #049cd9 ;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+   filter:alpha(opacity=90); /*IE滤镜，透明度50%*/
+   -moz-opacity:0.9; /*Firefox私有，透明度50%*/
+   opacity:0.9;/*其他，透明度50%*/
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #049cd9;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat ;
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+
+#popup_message {
+	padding-left: 48px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
